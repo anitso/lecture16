@@ -12,7 +12,7 @@ function factorial(n) {
 
   // Task 2:
  
-  function getCurrencySymbolFromCode
+function getCurrencySymbolFromCode
 
   let code=[h];
   let i;
@@ -27,7 +27,7 @@ function factorial(n) {
    return '$';
    else if (k='GEL')
    return '₾'
-   else return undefined;
+   else return undefined; 
    }
    let  codes=["GEL", "EUR", "USD", "FR", "YEN", "YUAN"];
    let r = getCurrencySymbolFromCode(h,codes);
